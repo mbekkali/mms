@@ -11,10 +11,12 @@ import com.android.volley.toolbox.Volley;
 
 public interface Request {
 
-    public Context getContext();
+    Context getContext();
 
-    public String getUrl();
+    String getUrl();
 
-    public void sendRequest();
+    void sendRequest();
+
+    void getResponse();
 
 }
